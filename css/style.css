@@ -20,21 +20,32 @@ nav {
     padding-top: 20px;
 }
 
-.about-store ul {
+.about-store {
     display: flex;
     flex-direction: row;
 }
 
-.about-store ul li {
+.about-store a {
     padding-left: 15px;
 }
 
-.gmail-images-apps-login ul {
+.gmail-images-apps-login {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-.gmail-images-apps-login ul li {
-    padding-right: 15px;
+.gmail-images-apps-login a {
+    margin-right: 15px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.gmail-images-apps-login button {
+    margin-right: 15px;
+}
+
+.apps-image-anchor {
+    height: 24px;
+    width: 24px;
 }
