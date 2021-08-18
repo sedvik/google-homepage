@@ -75,10 +75,11 @@ nav {
 
 a {
     text-decoration: none;
+    color: #000000DE;
 }
 
 a:visited {
-    color: black;
+    color: #000000DE;
 }
 
 .about-store {
