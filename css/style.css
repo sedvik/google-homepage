@@ -23,22 +23,16 @@ nav {
 .about-store {
     display: flex;
     flex-direction: row;
-}
-
-.about-store a {
-    padding-left: 15px;
+    width: 100px;
+    justify-content: space-around;
 }
 
 .gmail-images-apps-login {
     display: flex;
     flex-direction: row;
     align-items: center;
-}
-
-.gmail-images-apps-login a {
-    margin-right: 15px;
-    vertical-align: middle;
-    display: inline-block;
+    width: 240px;
+    justify-content: space-around;
 }
 
 .gmail-images-apps-login button {
@@ -48,4 +42,22 @@ nav {
 .apps-image-anchor {
     height: 24px;
     width: 24px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.advertising-business-how {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+
+.privacy-terms-settings {
+    display: flex;
+    width: 200px;
+    justify-content: space-around;
 }
