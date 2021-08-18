@@ -1,0 +1,1 @@
+This is a mini-project from the Odin Project to desconstruct an existing web page and rebuild it using HTML/CSS. I am completing these projects to obtain additional HTML/CSS practice in addition to the Codecademy web dev curriculum projects.
