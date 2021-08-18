@@ -1,3 +1,10 @@
+body {
+    height: 100vh;
+    font-size: 13px;
+    font-family: Arial, sans-serif;
+    color: #000000DE
+}
+
 main {
     display: flex;
     flex-direction: column;
@@ -5,26 +12,82 @@ main {
     margin: 0 auto;
     justify-content: center;
     align-items: center;
+    padding-top: 170px;
 }
 
 .google-logo {
     max-width: 100%;
     height: auto;
-    padding-top: 100px;
     padding-bottom: 15px;
+}
+
+.search-bar-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    height: 35px;
+    border: 1px solid rgb(201, 186, 186);
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    border: 0px solid black;
+    height: 22px;
+    width: 510px;
+}
+
+.search-input:focus {
+    outline: none;
+}
+
+.search-option-buttons {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    justify-content: space-around;
+}
+
+.search-option-buttons button {
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.search-option-buttons button:hover {
+    cursor: pointer;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
-    padding-top: 20px;
+    padding-top: 18px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
 }
 
 .about-store {
     display: flex;
     flex-direction: row;
-    width: 100px;
+    width: 110px;
     justify-content: space-around;
+    align-items: center;
+    margin-left: 10px;
 }
 
 .gmail-images-apps-login {
@@ -44,20 +107,44 @@ nav {
     width: 24px;
 }
 
+.sign-in {
+    color: white;
+    background-color: #4683ea;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    height: 30px;
+    width: 70px;
+}
+
+.sign-in:hover {
+    cursor: pointer;
+}
+
 footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    font-size: 14px;
+}
+
+.footer-container {
+    width: 100vw;
+    height: 50px;
+    position: static;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .advertising-business-how {
     display: flex;
-    width: 300px;
+    width: 350px;
     justify-content: space-around;
 }
 
 .privacy-terms-settings {
     display: flex;
-    width: 200px;
+    width: 220px;
     justify-content: space-around;
 }
